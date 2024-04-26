@@ -5,16 +5,11 @@ namespace App\Http\Controllers;
 use App\Mail\ContactMail;
 use App\Models\Admin\Blog;
 use App\Models\Admin\CaseStudy;
-use App\Models\Admin\Team;
-use App\Models\Project;
-use App\Models\Service;
-use App\Models\servicedetail;
-use App\Models\Testimonial;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Mail;
-use Illuminate\Support\Facades\Session;
+
 
 class HomeController extends Controller
 {
